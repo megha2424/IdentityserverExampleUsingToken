@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/meghaagr/Documents/Learnings/quickstart/src/IdentityServer/IdentityServer.csproj": {}
+  },
+  "projects": {
+    "/Users/meghaagr/Documents/Learnings/quickstart/src/IdentityServer/IdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/meghaagr/Documents/Learnings/quickstart/src/IdentityServer/IdentityServer.csproj",
+        "projectName": "IdentityServer",
+        "projectPath": "/Users/meghaagr/Documents/Learnings/quickstart/src/IdentityServer/IdentityServer.csproj",
+        "packagesPath": "/Users/meghaagr/.nuget/packages/",
+        "outputPath": "/Users/meghaagr/Documents/Learnings/quickstart/src/IdentityServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/meghaagr/Documents/Learnings/NuGet.Config",
+          "/Users/meghaagr/Documents/NuGet.Config",
+          "/Users/meghaagr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/SpaceBank/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Duende.IdentityServer": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/meghaagr/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
